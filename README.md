@@ -24,7 +24,7 @@ performance and payroll. Leaders cannot answer simple cross-lifecycle questions 
 ## 💡 Solution
 A unified **Hire-to-Retire analytics platform** on Microsoft Fabric that ingests six HR source systems into
 OneLake, refines them through **Bronze → Silver → Gold** layers, enforces data-quality rules, and serves a
-**Direct Lake semantic model** powering a 5-page Power BI report.
+**Direct Lake semantic model** powering a Multi-page Power BI report.
 
 ## 🏗️ Architecture
 ![H2R Architecture](architecture/h2r-fabric-architecture.png)
