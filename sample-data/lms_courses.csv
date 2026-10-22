@@ -1,0 +1,11 @@
+course_id,course_name,course_category,duration_hours
+C01,Microsoft Fabric Fundamentals,Technical,16
+C02,Power BI Advanced,Technical,12
+C03,Data Engineering with PySpark,Technical,20
+C04,Leadership Essentials,Leadership,8
+C05,Information Security Awareness,Compliance,2
+C06,POSH Awareness,Compliance,2
+C07,Client Communication,Soft Skills,6
+C08,Agile Delivery,Process,10
+C09,Generative AI for Business,Technical,8
+C10,Code of Conduct,Compliance,1

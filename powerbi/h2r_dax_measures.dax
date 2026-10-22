@@ -1,0 +1,103 @@
+// =====================================================================
+// H2R Semantic Model – DAX measures   (store in a "_Measures" table)
+// Model: Direct Lake on lh_h2r Gold tables
+// =====================================================================
+
+// ---------- Workforce ----------
+Headcount =
+CALCULATE (
+    DISTINCTCOUNT ( fact_headcount_monthly[employee_id] ),
+    fact_headcount_monthly[is_month_end_active] = TRUE (),
+    LASTDATE ( dim_date[date] )
+)
+
+Active Employees =
+CALCULATE ( DISTINCTCOUNT ( dim_employee[employee_id] ), dim_employee[is_active] = TRUE () )
+
+Hires =
+CALCULATE ( DISTINCTCOUNT ( fact_headcount_monthly[employee_id] ), fact_headcount_monthly[is_new_hire] = TRUE () )
+
+Exits =
+CALCULATE ( DISTINCTCOUNT ( fact_headcount_monthly[employee_id] ), fact_headcount_monthly[is_exit] = TRUE () )
+
+Net Headcount Change = [Hires] - [Exits]
+
+Average Headcount =
+AVERAGEX (
+    VALUES ( dim_date[month_start] ),
+    CALCULATE ( DISTINCTCOUNT ( fact_headcount_monthly[employee_id] ) )
+)
+
+Attrition % = DIVIDE ( [Exits], [Average Headcount] )
+
+Attrition % (Rolling 12M) =
+VAR _end = MAX ( dim_date[date] )
+VAR _period = DATESINPERIOD ( dim_date[date], _end, -12, MONTH )
+RETURN DIVIDE ( CALCULATE ( [Exits], _period ), CALCULATE ( [Average Headcount], _period ) )
+
+Voluntary Attrition % =
+DIVIDE ( CALCULATE ( COUNTROWS ( fact_exit ), fact_exit[exit_type] = "Voluntary" ), [Average Headcount] )
+
+Regrettable Exits = CALCULATE ( COUNTROWS ( fact_exit ), fact_exit[regrettable_flag] = "Y" )
+
+Female % =
+DIVIDE ( CALCULATE ( [Active Employees], dim_employee[gender] = "Female" ), [Active Employees] )
+
+Avg Tenure (Yrs) = CALCULATE ( AVERAGE ( dim_employee[tenure_years] ), dim_employee[is_active] = TRUE () )
+
+// ---------- Talent acquisition ----------
+Applicants = COUNTROWS ( fact_recruitment )
+Offers = CALCULATE ( COUNTROWS ( fact_recruitment ), fact_recruitment[is_offered] = TRUE () )
+Candidates Hired = CALCULATE ( COUNTROWS ( fact_recruitment ), fact_recruitment[is_hired] = TRUE () )
+Offer Acceptance % = DIVIDE ( [Candidates Hired], [Offers] )
+Applicant to Hire % = DIVIDE ( [Candidates Hired], [Applicants] )
+Avg Time to Hire (Days) = AVERAGE ( fact_recruitment[time_to_hire_days] )
+Avg Time to Fill (Days) = AVERAGE ( fact_recruitment[time_to_fill_days] )
+
+// ---------- Onboarding ----------
+Induction Completion % =
+DIVIDE ( CALCULATE ( COUNTROWS ( fact_onboarding ), fact_onboarding[induction_completed] = "Y" ), COUNTROWS ( fact_onboarding ) )
+Onboarding Score = AVERAGE ( fact_onboarding[onboarding_survey_score] )
+Early Attrition % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fact_exit ), fact_exit[tenure_at_exit_years] < 1 ),
+    COUNTROWS ( fact_exit )
+)
+
+// ---------- Learning ----------
+Training Completion % =
+DIVIDE ( CALCULATE ( COUNTROWS ( fact_training ), fact_training[is_completed] = TRUE () ), COUNTROWS ( fact_training ) )
+Learning Hours = SUM ( fact_training[learning_hours] )
+Learning Hours per Employee = DIVIDE ( [Learning Hours], [Active Employees] )
+Avg Assessment Score = AVERAGE ( fact_training[assessment_score] )
+
+// ---------- Leave ----------
+Approved Leave Days =
+CALCULATE ( SUM ( fact_leave[leave_days] ), fact_leave[approval_status] = "Approved" )
+Leave Days per Employee = DIVIDE ( [Approved Leave Days], [Average Headcount] )
+Unplanned Leave % =
+DIVIDE (
+    CALCULATE ( [Approved Leave Days], fact_leave[leave_type] IN { "Sick Leave", "Unpaid Leave" } ),
+    [Approved Leave Days]
+)
+
+// ---------- Performance ----------
+Avg Performance Rating = AVERAGE ( fact_performance[performance_rating] )
+High Performer % =
+DIVIDE ( CALCULATE ( COUNTROWS ( fact_performance ), fact_performance[performance_rating] >= 4 ), COUNTROWS ( fact_performance ) )
+Promotion Rate % =
+DIVIDE ( CALCULATE ( COUNTROWS ( fact_performance ), fact_performance[promoted_flag] = "Y" ), COUNTROWS ( fact_performance ) )
+
+// ---------- Compensation ----------
+Total Gross Pay = SUM ( fact_payroll[gross_pay] )
+Cost per Employee (Monthly) = DIVIDE ( [Total Gross Pay], DISTINCTCOUNT ( fact_payroll[employee_id] ) * DISTINCTCOUNT ( dim_date[month_start] ) )
+Bonus % of Pay = DIVIDE ( SUM ( fact_payroll[bonus] ), [Total Gross Pay] )
+
+// ---------- Time intelligence ----------
+Headcount PY = CALCULATE ( [Headcount], SAMEPERIODLASTYEAR ( dim_date[date] ) )
+Headcount YoY % = DIVIDE ( [Headcount] - [Headcount PY], [Headcount PY] )
+
+// ---------- Data health ----------
+DQ Checks Failed = CALCULATE ( COUNTROWS ( ops_dq_results ), ops_dq_results[status] = "FAIL",
+                   ops_dq_results[run_ts] = MAX ( ops_dq_results[run_ts] ) )
+Last Refresh = "Data as of " & FORMAT ( MAX ( ops_ingestion_audit[loaded_at] ), "dd-mmm-yyyy hh:mm" )

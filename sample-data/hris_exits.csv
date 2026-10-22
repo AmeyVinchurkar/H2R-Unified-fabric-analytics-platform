@@ -1,0 +1,430 @@
+employee_id,resignation_date,last_working_date,exit_type,exit_reason,regrettable_flag,kt_completed,exit_interview_score
+E000003,2023-01-01,2023-02-01,Voluntary,Better Opportunity,N,Y,3.8
+E000004,2026-02-11,2026-03-15,Voluntary,Better Opportunity,N,N,3.0
+E000005,2022-12-01,2023-01-13,Voluntary,Better Opportunity,N,Y,4.4
+E000006,2024-04-20,2024-06-01,Voluntary,Performance,Y,Y,3.8
+E000008,2021-10-01,2021-11-16,Voluntary,Compensation,N,N,3.4
+E000009,2022-01-11,2022-03-06,Voluntary,Personal Reasons,Y,Y,4.2
+E000011,2024-12-06,2025-01-28,Voluntary,Personal Reasons,N,Y,2.9
+E000014,2023-10-29,2023-12-26,Involuntary,Compensation,N,Y,4.0
+E000018,2023-03-25,2023-06-05,Voluntary,Career Growth,N,Y,3.1
+E000019,2023-04-08,2023-07-05,Voluntary,Better Opportunity,Y,Y,2.7
+E000022,2022-11-10,2023-01-20,Involuntary,Compensation,N,N,3.7
+E000023,2022-03-02,2022-04-17,Voluntary,Career Growth,N,Y,5.0
+E000024,2023-10-07,2023-11-14,Voluntary,Better Opportunity,Y,Y,2.5
+E000027,2025-01-20,2025-03-13,Involuntary,Career Growth,Y,Y,3.6
+E000030,2021-10-13,2021-12-15,Voluntary,Compensation,N,Y,4.0
+E000039,2023-04-05,2023-05-28,Voluntary,Compensation,N,Y,2.5
+E000041,2024-01-18,2024-03-18,Voluntary,Compensation,N,Y,3.2
+E000042,2022-03-26,2022-06-23,Voluntary,Higher Studies,N,Y,3.5
+E000044,2022-12-22,2023-02-18,Voluntary,Personal Reasons,N,Y,3.3
+E000045,2024-07-23,2024-09-01,Voluntary,Personal Reasons,Y,Y,3.5
+E000047,2024-10-09,2024-11-08,Involuntary,Compensation,Y,N,4.9
+E000049,2021-07-28,2021-09-29,Voluntary,Relocation,N,Y,3.6
+E000052,2024-06-28,2024-08-10,Voluntary,Compensation,N,Y,4.2
+E000054,2025-11-09,2026-01-29,Involuntary,Compensation,Y,Y,2.1
+E000055,2026-02-12,2026-03-15,Voluntary,Retirement,N,Y,3.3
+E000056,2022-02-07,2022-04-25,Voluntary,Career Growth,N,N,3.6
+E000057,2021-12-04,2022-01-14,Involuntary,Personal Reasons,N,Y,4.0
+E000058,2024-04-18,2024-06-04,Voluntary,Compensation,Y,Y,2.0
+E000059,2022-08-31,2022-10-07,Voluntary,Better Opportunity,N,Y,3.3
+E000062,2025-05-16,2025-07-03,Voluntary,Personal Reasons,N,N,1.9
+E000065,2023-02-17,2023-03-30,Involuntary,Retirement,N,Y,2.7
+E000066,2023-07-21,2023-09-11,Voluntary,Career Growth,N,Y,4.0
+E000067,2023-03-08,2023-04-09,Voluntary,Better Opportunity,N,Y,3.7
+E000069,2021-07-14,2021-09-18,Voluntary,Better Opportunity,N,Y,4.6
+E000070,2023-08-27,2023-10-22,Voluntary,Retirement,Y,Y,3.9
+E000072,2022-11-29,2023-01-10,Voluntary,Career Growth,N,Y,2.3
+E000074,2024-06-03,2024-07-17,Voluntary,Career Growth,N,Y,2.8
+E000075,2022-02-01,2022-03-21,Voluntary,Compensation,N,Y,3.6
+E000076,2024-05-17,2024-08-04,Involuntary,Personal Reasons,Y,Y,2.9
+E000077,2023-05-24,2023-08-12,Voluntary,Relocation,Y,Y,4.0
+E000078,2024-01-04,2024-02-28,Involuntary,Relocation,Y,Y,3.4
+E000080,2024-04-08,2024-06-26,Voluntary,Relocation,N,Y,4.9
+E000081,2025-12-06,2026-01-22,Voluntary,Compensation,Y,Y,1.2
+E000082,2025-01-28,2025-04-14,Involuntary,Compensation,Y,N,4.7
+E000083,2021-09-09,2021-12-04,Voluntary,Personal Reasons,N,Y,2.2
+E000084,2021-08-18,2021-10-23,Voluntary,Career Growth,N,N,2.9
+E000085,2023-10-19,2023-11-23,Voluntary,Better Opportunity,Y,Y,3.1
+E000090,2022-07-04,2022-08-22,Voluntary,Career Growth,N,Y,1.9
+E000091,2023-09-04,2023-10-11,Voluntary,Better Opportunity,Y,Y,4.0
+E000093,2022-03-31,2022-05-07,Voluntary,Career Growth,Y,Y,3.6
+E000101,2021-11-10,2022-01-19,Voluntary,Better Opportunity,Y,Y,3.0
+E000102,2022-01-20,2022-04-19,Involuntary,Better Opportunity,N,Y,4.5
+E000105,2023-04-17,2023-06-27,Voluntary,Personal Reasons,N,Y,2.2
+E000108,2022-04-06,2022-06-17,Voluntary,Better Opportunity,Y,Y,3.2
+E000109,2022-01-05,2022-02-04,Involuntary,Compensation,N,Y,4.4
+E000111,2024-04-23,2024-07-16,Voluntary,Career Growth,N,Y,3.3
+E000112,2022-10-05,2022-11-19,Voluntary,Career Growth,N,Y,3.1
+E000113,2024-02-21,2024-05-15,Voluntary,Better Opportunity,Y,Y,3.8
+E000120,2021-09-24,2021-12-14,Voluntary,Better Opportunity,N,Y,3.0
+E000122,2024-01-04,2024-03-02,Voluntary,Better Opportunity,Y,N,5.0
+E000124,2021-11-05,2022-01-21,Voluntary,Retirement,Y,Y,3.2
+E000126,2024-04-21,2024-07-18,Voluntary,Career Growth,Y,Y,2.6
+E000127,2024-08-19,2024-10-26,Voluntary,Retirement,N,N,3.8
+E000129,2022-12-21,2023-02-01,Voluntary,Better Opportunity,N,Y,4.0
+E000137,2024-01-15,2024-04-04,Involuntary,Compensation,Y,Y,3.2
+E000140,2022-01-03,2022-03-13,Voluntary,Compensation,Y,Y,4.0
+E000141,2025-04-15,2025-06-09,Involuntary,Career Growth,N,Y,3.1
+E000143,2021-10-31,2021-12-09,Voluntary,Career Growth,N,Y,3.1
+E000145,2022-05-09,2022-06-26,Voluntary,Better Opportunity,N,Y,5.0
+E000146,2023-02-07,2023-04-13,Voluntary,Better Opportunity,Y,Y,3.1
+E000147,2024-01-23,2024-04-04,Involuntary,Better Opportunity,Y,Y,3.0
+E000152,2023-02-05,2023-04-03,Voluntary,Relocation,N,Y,4.9
+E000154,2023-02-24,2023-05-21,Voluntary,Better Opportunity,N,Y,4.4
+E000156,2025-10-02,2025-11-20,Voluntary,Better Opportunity,N,Y,3.1
+E000158,2022-02-14,2022-04-26,Voluntary,Compensation,Y,Y,4.4
+E000160,2023-11-08,2023-12-22,Voluntary,Compensation,Y,Y,3.7
+E000161,2023-03-11,2023-05-08,Voluntary,Compensation,N,Y,3.3
+E000163,2022-08-15,2022-10-12,Voluntary,Better Opportunity,Y,Y,3.3
+E000167,2024-03-24,2024-06-12,Voluntary,Better Opportunity,N,Y,3.3
+E000168,2022-05-23,2022-06-25,Voluntary,Compensation,Y,Y,4.7
+E000169,2022-06-06,2022-07-11,Voluntary,Better Opportunity,N,Y,3.7
+E000171,2024-11-27,2025-02-16,Voluntary,Compensation,N,Y,2.4
+E000172,2023-01-05,2023-02-26,Voluntary,Compensation,N,Y,2.3
+E000173,2025-10-24,2026-01-15,Involuntary,Compensation,N,Y,2.3
+E000174,2024-04-02,2024-06-22,Voluntary,Higher Studies,Y,N,4.0
+E000176,2023-12-09,2024-01-15,Voluntary,Relocation,Y,N,3.7
+E000179,2025-03-05,2025-05-03,Voluntary,Better Opportunity,N,Y,3.9
+E000181,2025-11-05,2025-12-25,Involuntary,Better Opportunity,N,Y,2.7
+E000182,2023-01-17,2023-03-16,Voluntary,Personal Reasons,Y,Y,2.8
+E000192,2022-01-08,2022-02-23,Voluntary,Relocation,N,N,3.6
+E000193,2023-10-14,2023-11-16,Involuntary,Better Opportunity,N,Y,5.0
+E000195,2022-06-28,2022-09-18,Voluntary,Better Opportunity,Y,Y,2.5
+E000196,2022-02-08,2022-04-14,Voluntary,Relocation,Y,Y,3.7
+E000197,2023-12-08,2024-01-14,Voluntary,Better Opportunity,N,Y,2.4
+E000198,2022-09-03,2022-10-27,Voluntary,Personal Reasons,Y,Y,2.1
+E000201,2023-05-13,2023-07-02,Voluntary,Compensation,N,Y,4.0
+E000202,2021-12-24,2022-03-04,Voluntary,Retirement,N,Y,4.0
+E000203,2022-11-26,2023-01-26,Voluntary,Compensation,Y,Y,1.9
+E000204,2022-01-20,2022-03-21,Involuntary,Personal Reasons,N,Y,3.9
+E000208,2025-04-30,2025-06-02,Voluntary,Performance,N,Y,3.3
+E000209,2022-01-31,2022-04-14,Voluntary,Career Growth,Y,N,3.6
+E000211,2022-06-23,2022-08-06,Voluntary,Career Growth,N,Y,4.2
+E000213,2025-12-03,2026-01-27,Voluntary,Better Opportunity,N,Y,3.3
+E000216,2024-05-04,2024-07-13,Involuntary,Career Growth,N,Y,3.5
+E000223,2022-04-11,2022-07-03,Voluntary,Career Growth,N,Y,4.4
+E000226,2025-07-11,2025-10-02,Involuntary,Career Growth,Y,Y,1.6
+E000227,2024-09-15,2024-12-08,Voluntary,Personal Reasons,Y,Y,2.0
+E000230,2022-02-09,2022-05-06,Voluntary,Career Growth,Y,Y,2.8
+E000232,2022-08-26,2022-11-03,Voluntary,Better Opportunity,N,Y,3.1
+E000233,2025-04-27,2025-07-24,Voluntary,Compensation,Y,Y,4.3
+E000234,2024-07-07,2024-09-17,Voluntary,Compensation,N,Y,2.3
+E000236,2026-01-14,2026-02-23,Voluntary,Personal Reasons,N,Y,2.7
+E000237,2025-02-03,2025-04-11,Voluntary,Relocation,N,Y,3.1
+E000238,2024-11-07,2025-01-30,Involuntary,Career Growth,Y,N,2.6
+E000239,2025-04-23,2025-07-13,Voluntary,Career Growth,Y,Y,4.2
+E000240,2022-11-08,2023-01-11,Voluntary,Career Growth,N,Y,2.0
+E000242,2024-05-19,2024-07-25,Voluntary,Compensation,Y,Y,2.3
+E000243,2025-01-14,2025-04-07,Voluntary,Compensation,Y,Y,3.0
+E000244,2022-06-21,2022-08-19,Involuntary,Compensation,N,Y,2.8
+E000246,2025-02-09,2025-04-02,Involuntary,Career Growth,N,N,3.0
+E000251,2022-06-03,2022-07-31,Voluntary,Better Opportunity,N,Y,3.5
+E000256,2022-04-11,2022-05-23,Voluntary,Better Opportunity,N,Y,3.7
+E000257,2024-04-03,2024-06-16,Voluntary,Better Opportunity,N,Y,3.7
+E000258,2022-04-21,2022-06-08,Involuntary,Better Opportunity,N,Y,2.8
+E000260,2022-05-16,2022-07-12,Involuntary,Retirement,Y,Y,3.9
+E000261,2024-01-26,2024-03-25,Voluntary,Better Opportunity,N,Y,3.2
+E000268,2022-05-01,2022-06-25,Involuntary,Personal Reasons,Y,Y,4.6
+E000271,2023-01-19,2023-02-24,Involuntary,Better Opportunity,N,Y,4.0
+E000272,2024-04-13,2024-06-22,Voluntary,Career Growth,Y,Y,3.9
+E000273,2025-05-09,2025-07-26,Voluntary,Better Opportunity,N,Y,4.0
+E000274,2022-08-29,2022-11-12,Involuntary,Personal Reasons,N,Y,2.9
+E000275,2022-06-30,2022-09-26,Voluntary,Relocation,N,Y,2.7
+E000277,2025-12-20,2026-03-18,Involuntary,Career Growth,N,Y,3.2
+E000279,2025-05-04,2025-06-15,Voluntary,Career Growth,N,Y,4.5
+E000280,2025-03-10,2025-05-06,Involuntary,Compensation,Y,Y,2.6
+E000281,2024-01-18,2024-04-15,Voluntary,Career Growth,Y,Y,4.2
+E000282,2024-09-26,2024-12-22,Voluntary,Better Opportunity,N,Y,3.0
+E000283,2025-01-02,2025-02-09,Voluntary,Better Opportunity,N,Y,3.3
+E000284,2024-04-29,2024-06-23,Voluntary,Personal Reasons,N,Y,3.4
+E000287,2024-08-06,2024-10-12,Involuntary,Career Growth,Y,N,2.2
+E000288,2022-10-30,2023-01-05,Voluntary,Better Opportunity,Y,Y,2.5
+E000289,2023-09-11,2023-10-26,Voluntary,Retirement,N,Y,4.0
+E000290,2025-07-20,2025-10-01,Involuntary,Better Opportunity,N,Y,3.7
+E000293,2023-02-16,2023-04-07,Involuntary,Relocation,N,Y,3.0
+E000298,2024-04-01,2024-06-03,Involuntary,Compensation,Y,Y,3.2
+E000299,2023-06-11,2023-08-05,Voluntary,Better Opportunity,N,Y,4.0
+E000300,2022-10-11,2022-12-05,Voluntary,Better Opportunity,Y,Y,4.7
+E000303,2022-07-09,2022-09-14,Voluntary,Compensation,Y,Y,4.2
+E000306,2023-07-11,2023-09-11,Voluntary,Personal Reasons,N,Y,3.4
+E000308,2024-08-08,2024-10-10,Voluntary,Career Growth,N,Y,4.5
+E000309,2023-01-12,2023-02-12,Voluntary,Personal Reasons,Y,Y,4.0
+E000312,2023-02-09,2023-05-06,Voluntary,Better Opportunity,N,Y,3.1
+E000313,2023-10-05,2023-12-17,Voluntary,Career Growth,N,Y,2.5
+E000314,2023-11-24,2024-02-12,Voluntary,Personal Reasons,N,Y,1.6
+E000315,2024-09-28,2024-11-29,Involuntary,Career Growth,N,Y,3.5
+E000317,2022-06-12,2022-09-09,Voluntary,Better Opportunity,Y,Y,2.6
+E000318,2025-10-06,2025-12-19,Voluntary,Better Opportunity,N,Y,3.0
+E000320,2024-05-30,2024-07-09,Voluntary,Compensation,Y,Y,2.4
+E000321,2023-12-08,2024-03-02,Voluntary,Relocation,N,Y,2.8
+E000322,2023-09-01,2023-11-01,Voluntary,Better Opportunity,N,Y,4.3
+E000323,2024-05-01,2024-06-23,Voluntary,Career Growth,Y,Y,3.9
+E000324,2023-03-21,2023-05-29,Voluntary,Compensation,N,Y,5.0
+E000325,2022-12-06,2023-01-10,Voluntary,Compensation,Y,Y,1.8
+E000326,2024-07-18,2024-09-26,Voluntary,Better Opportunity,N,Y,3.4
+E000327,2025-09-02,2025-10-20,Voluntary,Higher Studies,N,Y,3.8
+E000330,2022-08-29,2022-11-26,Voluntary,Relocation,Y,Y,4.3
+E000333,2025-11-21,2026-01-27,Voluntary,Personal Reasons,N,Y,3.3
+E000334,2024-01-07,2024-03-01,Voluntary,Relocation,N,Y,3.3
+E000335,2025-07-01,2025-08-23,Voluntary,Personal Reasons,N,Y,3.9
+E000337,2025-12-30,2026-02-22,Voluntary,Compensation,N,N,3.0
+E000338,2024-08-07,2024-10-29,Voluntary,Career Growth,N,Y,2.9
+E000339,2023-06-07,2023-08-11,Involuntary,Career Growth,N,Y,3.8
+E000341,2025-06-04,2025-07-20,Voluntary,Better Opportunity,Y,Y,2.8
+E000345,2022-08-28,2022-10-19,Voluntary,Better Opportunity,N,Y,4.0
+E000347,2025-09-23,2025-11-18,Voluntary,Career Growth,N,Y,2.3
+E000349,2023-12-05,2024-02-14,Voluntary,Better Opportunity,N,Y,3.0
+E000350,2024-03-03,2024-05-17,Voluntary,Higher Studies,N,Y,3.1
+E000351,2023-11-10,2023-12-19,Involuntary,Better Opportunity,N,Y,4.1
+E000352,2025-10-01,2025-11-22,Involuntary,Higher Studies,N,Y,3.7
+E000356,2024-11-15,2025-02-10,Involuntary,Performance,N,Y,4.6
+E000359,2025-07-10,2025-10-07,Voluntary,Career Growth,N,Y,4.6
+E000361,2022-12-10,2023-02-01,Involuntary,Career Growth,N,Y,4.7
+E000365,2024-02-09,2024-03-25,Voluntary,Personal Reasons,N,N,3.4
+E000366,2023-07-21,2023-08-27,Voluntary,Better Opportunity,Y,Y,3.3
+E000368,2022-09-17,2022-10-28,Voluntary,Better Opportunity,Y,Y,2.4
+E000372,2024-03-18,2024-05-07,Voluntary,Retirement,N,Y,2.9
+E000373,2024-02-25,2024-04-20,Involuntary,Performance,N,Y,2.7
+E000375,2024-04-19,2024-07-12,Voluntary,Better Opportunity,N,Y,2.2
+E000376,2022-12-10,2023-01-30,Voluntary,Personal Reasons,N,N,3.6
+E000377,2024-07-22,2024-10-02,Voluntary,Personal Reasons,N,Y,5.0
+E000378,2022-12-24,2023-01-24,Voluntary,Personal Reasons,Y,Y,4.3
+E000379,2024-11-29,2025-02-09,Voluntary,Better Opportunity,Y,Y,4.2
+E000381,2025-02-10,2025-04-05,Voluntary,Compensation,Y,Y,2.3
+E000385,2022-10-12,2022-12-23,Voluntary,Performance,Y,Y,4.8
+E000386,2022-09-08,2022-11-01,Voluntary,Compensation,N,Y,2.0
+E000387,2022-12-28,2023-02-10,Involuntary,Compensation,N,Y,2.7
+E000393,2024-07-23,2024-09-30,Voluntary,Career Growth,Y,Y,2.3
+E000395,2025-12-04,2026-01-16,Voluntary,Better Opportunity,Y,Y,4.6
+E000396,2024-07-25,2024-09-08,Voluntary,Career Growth,N,N,4.2
+E000397,2022-11-05,2023-01-23,Voluntary,Better Opportunity,N,Y,2.9
+E000398,2023-11-21,2024-02-15,Involuntary,Compensation,Y,Y,4.3
+E000400,2025-03-28,2025-06-21,Voluntary,Relocation,N,N,3.1
+E000403,2024-06-10,2024-08-17,Voluntary,Career Growth,N,Y,2.9
+E000407,2024-07-27,2024-09-07,Voluntary,Better Opportunity,N,Y,3.8
+E000408,2023-10-31,2024-01-15,Voluntary,Career Growth,N,N,1.6
+E000411,2024-09-19,2024-11-12,Voluntary,Compensation,Y,Y,3.7
+E000416,2024-08-06,2024-10-24,Voluntary,Career Growth,N,Y,3.0
+E000417,2024-01-09,2024-04-03,Voluntary,Career Growth,Y,Y,3.3
+E000419,2024-03-03,2024-04-20,Voluntary,Compensation,Y,Y,3.9
+E000421,2023-12-28,2024-02-20,Voluntary,Better Opportunity,N,Y,3.6
+E000424,2025-11-23,2025-12-26,Voluntary,Career Growth,Y,Y,2.9
+E000425,2023-03-31,2023-05-25,Voluntary,Compensation,N,Y,3.3
+E000431,2023-06-16,2023-07-21,Voluntary,Personal Reasons,Y,Y,3.2
+E000432,2025-02-23,2025-04-11,Voluntary,Compensation,Y,Y,2.9
+E000437,2025-05-13,2025-08-09,Voluntary,Career Growth,Y,Y,2.2
+E000440,2023-01-08,2023-03-20,Voluntary,Compensation,Y,Y,3.7
+E000441,2025-12-29,2026-02-27,Involuntary,Relocation,Y,Y,4.5
+E000442,2024-06-12,2024-08-15,Involuntary,Career Growth,Y,Y,4.6
+E000445,2025-11-14,2026-01-04,Voluntary,Personal Reasons,N,Y,3.5
+E000450,2025-07-31,2025-09-18,Voluntary,Retirement,Y,Y,3.1
+E000451,2023-12-10,2024-02-16,Voluntary,Better Opportunity,Y,Y,1.9
+E000453,2023-07-02,2023-08-26,Voluntary,Performance,Y,Y,1.3
+E000460,2025-06-01,2025-07-28,Voluntary,Better Opportunity,Y,Y,4.5
+E000461,2024-04-14,2024-06-22,Voluntary,Career Growth,Y,Y,4.1
+E000466,2025-03-24,2025-06-21,Voluntary,Career Growth,Y,Y,1.5
+E000468,2024-09-17,2024-11-14,Involuntary,Compensation,N,Y,2.9
+E000472,2023-09-26,2023-11-11,Voluntary,Career Growth,Y,Y,1.9
+E000475,2024-01-03,2024-03-22,Involuntary,Compensation,Y,Y,3.8
+E000480,2025-05-11,2025-07-18,Voluntary,Performance,N,Y,3.7
+E000481,2024-08-01,2024-10-14,Voluntary,Better Opportunity,Y,Y,4.0
+E000483,2023-01-03,2023-03-22,Voluntary,Compensation,N,N,3.9
+E000484,2025-09-20,2025-11-21,Voluntary,Better Opportunity,Y,Y,1.9
+E000485,2025-09-21,2025-11-09,Voluntary,Higher Studies,N,Y,2.9
+E000486,2023-12-20,2024-02-01,Voluntary,Relocation,Y,N,3.9
+E000488,2024-11-09,2025-01-24,Voluntary,Better Opportunity,N,Y,3.1
+E000490,2024-11-29,2025-02-22,Voluntary,Better Opportunity,Y,Y,3.0
+E000491,2024-11-23,2025-02-11,Voluntary,Compensation,N,Y,3.6
+E000492,2023-08-11,2023-10-23,Involuntary,Better Opportunity,Y,Y,3.8
+E000496,2024-11-25,2025-02-09,Involuntary,Better Opportunity,Y,Y,3.0
+E000499,2023-04-23,2023-07-17,Voluntary,Better Opportunity,Y,Y,4.2
+E000501,2023-06-04,2023-07-30,Voluntary,Career Growth,N,Y,3.8
+E000502,2023-09-24,2023-11-27,Voluntary,Personal Reasons,N,Y,3.6
+E000503,2023-10-24,2023-12-10,Voluntary,Better Opportunity,N,Y,3.9
+E000504,2023-11-11,2024-01-09,Voluntary,Career Growth,Y,Y,3.0
+E000506,2023-10-15,2023-12-16,Voluntary,Compensation,N,Y,3.1
+E000507,2023-08-11,2023-09-20,Voluntary,Performance,N,Y,2.7
+E000508,2023-06-29,2023-09-08,Voluntary,Relocation,N,Y,3.4
+E000509,2025-04-19,2025-06-18,Voluntary,Career Growth,Y,Y,2.3
+E000511,2024-05-03,2024-07-26,Voluntary,Personal Reasons,N,Y,3.6
+E000516,2024-01-22,2024-04-05,Voluntary,Career Growth,N,Y,3.2
+E000517,2024-03-19,2024-05-02,Voluntary,Better Opportunity,N,Y,3.6
+E000518,2024-04-09,2024-05-17,Voluntary,Compensation,N,Y,2.7
+E000528,2023-12-29,2024-02-07,Involuntary,Better Opportunity,N,N,3.9
+E000532,2024-01-07,2024-03-21,Voluntary,Performance,Y,Y,3.2
+E000535,2025-02-06,2025-04-04,Voluntary,Better Opportunity,N,Y,3.6
+E000536,2024-04-05,2024-06-17,Involuntary,Career Growth,N,Y,4.5
+E000537,2024-04-19,2024-06-02,Voluntary,Higher Studies,Y,Y,4.8
+E000538,2025-03-02,2025-04-27,Voluntary,Performance,N,Y,2.6
+E000540,2024-02-27,2024-05-18,Voluntary,Career Growth,N,N,3.3
+E000542,2024-05-09,2024-06-15,Voluntary,Retirement,N,Y,3.5
+E000544,2023-11-11,2023-12-22,Voluntary,Career Growth,Y,Y,3.6
+E000547,2025-07-11,2025-08-21,Voluntary,Compensation,N,Y,2.4
+E000549,2024-06-08,2024-08-01,Voluntary,Career Growth,N,Y,3.7
+E000550,2024-11-14,2025-01-11,Voluntary,Compensation,N,Y,3.1
+E000551,2024-03-14,2024-04-28,Involuntary,Compensation,N,Y,3.8
+E000552,2024-10-20,2025-01-10,Voluntary,Compensation,N,Y,2.5
+E000556,2023-07-19,2023-10-14,Voluntary,Relocation,N,Y,4.6
+E000559,2023-03-29,2023-06-18,Voluntary,Career Growth,N,Y,4.0
+E000562,2023-03-14,2023-06-08,Voluntary,Relocation,N,Y,3.3
+E000563,2025-11-05,2026-02-02,Voluntary,Career Growth,N,Y,4.0
+E000564,2025-03-26,2025-05-20,Voluntary,Better Opportunity,Y,Y,3.7
+E000565,2025-04-30,2025-06-07,Voluntary,Career Growth,N,Y,3.2
+E000566,2025-07-27,2025-09-08,Voluntary,Compensation,N,N,3.1
+E000570,2023-08-19,2023-11-01,Voluntary,Compensation,Y,Y,3.2
+E000571,2024-06-24,2024-08-17,Voluntary,Personal Reasons,N,Y,4.1
+E000574,2024-05-01,2024-07-28,Voluntary,Career Growth,N,Y,4.5
+E000576,2025-06-22,2025-08-29,Voluntary,Personal Reasons,Y,Y,2.6
+E000579,2024-08-15,2024-10-26,Involuntary,Better Opportunity,N,Y,2.0
+E000580,2024-07-04,2024-08-17,Voluntary,Better Opportunity,N,Y,4.4
+E000583,2023-06-09,2023-08-11,Voluntary,Compensation,Y,Y,3.2
+E000594,2023-08-02,2023-09-30,Voluntary,Better Opportunity,N,Y,3.3
+E000596,2025-07-14,2025-09-10,Voluntary,Career Growth,Y,Y,2.1
+E000597,2023-10-01,2023-12-03,Voluntary,Career Growth,N,Y,3.6
+E000599,2023-11-26,2024-01-25,Voluntary,Compensation,Y,N,1.9
+E000600,2024-05-10,2024-07-05,Voluntary,Better Opportunity,N,Y,4.6
+E000605,2023-06-07,2023-07-22,Voluntary,Career Growth,N,Y,2.7
+E000607,2023-09-21,2023-11-15,Voluntary,Relocation,N,Y,3.8
+E000608,2023-05-27,2023-08-19,Voluntary,Compensation,N,Y,3.5
+E000610,2025-12-29,2026-02-04,Voluntary,Personal Reasons,N,Y,4.2
+E000616,2025-07-12,2025-10-08,Voluntary,Relocation,N,Y,2.9
+E000617,2025-02-15,2025-04-25,Voluntary,Performance,N,Y,2.7
+E000619,2025-11-19,2026-01-16,Voluntary,Career Growth,N,Y,5.0
+E000620,2025-05-01,2025-07-20,Voluntary,Higher Studies,N,Y,2.3
+E000621,2024-08-12,2024-11-09,Voluntary,Career Growth,N,Y,3.9
+E000629,2024-08-27,2024-11-12,Voluntary,Better Opportunity,N,Y,2.7
+E000631,2024-12-11,2025-01-22,Voluntary,Better Opportunity,Y,Y,2.2
+E000633,2025-06-12,2025-07-31,Voluntary,Relocation,N,Y,3.4
+E000634,2024-12-29,2025-03-26,Voluntary,Better Opportunity,N,Y,3.8
+E000637,2024-02-17,2024-03-28,Voluntary,Compensation,N,Y,2.5
+E000638,2025-07-10,2025-09-17,Voluntary,Compensation,N,Y,3.5
+E000644,2023-10-03,2023-12-06,Voluntary,Compensation,Y,Y,2.8
+E000649,2023-12-01,2024-01-25,Voluntary,Compensation,Y,Y,3.5
+E000655,2024-11-27,2025-02-02,Voluntary,Better Opportunity,N,Y,4.8
+E000666,2024-05-10,2024-07-26,Voluntary,Better Opportunity,N,N,3.3
+E000668,2024-08-22,2024-10-24,Voluntary,Better Opportunity,Y,N,4.5
+E000670,2025-05-11,2025-07-26,Voluntary,Career Growth,N,Y,2.4
+E000674,2025-08-11,2025-10-12,Involuntary,Personal Reasons,N,Y,3.3
+E000675,2025-08-17,2025-10-01,Voluntary,Better Opportunity,Y,Y,3.3
+E000680,2025-01-23,2025-03-06,Voluntary,Better Opportunity,Y,Y,4.5
+E000683,2025-05-15,2025-06-29,Voluntary,Compensation,N,Y,4.2
+E000691,2025-08-21,2025-09-28,Involuntary,Personal Reasons,Y,Y,3.2
+E000693,2024-07-20,2024-08-31,Voluntary,Better Opportunity,N,N,4.1
+E000697,2024-12-13,2025-02-26,Voluntary,Relocation,N,Y,3.8
+E000698,2024-07-12,2024-08-14,Voluntary,Career Growth,Y,Y,2.9
+E000706,2024-05-28,2024-07-28,Voluntary,Relocation,Y,N,2.9
+E000712,2024-05-23,2024-08-19,Involuntary,Compensation,N,Y,3.0
+E000721,2025-05-24,2025-07-31,Voluntary,Better Opportunity,N,Y,4.3
+E000722,2025-11-09,2026-01-23,Voluntary,Better Opportunity,Y,Y,3.9
+E000723,2024-01-13,2024-03-24,Voluntary,Career Growth,N,Y,3.8
+E000726,2025-07-01,2025-08-22,Voluntary,Career Growth,N,Y,4.7
+E000727,2024-02-10,2024-03-24,Voluntary,Career Growth,Y,Y,3.2
+E000730,2025-11-12,2026-01-30,Voluntary,Career Growth,Y,Y,2.4
+E000732,2024-09-13,2024-11-05,Involuntary,Retirement,N,Y,4.5
+E000735,2024-03-06,2024-04-21,Involuntary,Compensation,N,Y,4.0
+E000742,2024-07-23,2024-09-02,Voluntary,Career Growth,N,Y,2.0
+E000743,2025-06-10,2025-08-05,Voluntary,Relocation,N,Y,4.0
+E000750,2025-01-03,2025-02-28,Voluntary,Compensation,N,Y,2.2
+E000758,2024-06-16,2024-08-21,Involuntary,Better Opportunity,Y,Y,2.4
+E000759,2024-03-01,2024-04-26,Voluntary,Compensation,Y,Y,3.9
+E000763,2025-05-26,2025-06-25,Voluntary,Personal Reasons,Y,Y,4.7
+E000766,2024-05-09,2024-06-30,Voluntary,Compensation,N,Y,4.8
+E000778,2025-09-06,2025-11-20,Voluntary,Performance,N,Y,2.9
+E000779,2025-09-06,2025-11-15,Voluntary,Compensation,Y,Y,3.6
+E000784,2024-05-26,2024-08-08,Voluntary,Higher Studies,N,Y,3.9
+E000785,2024-08-21,2024-11-14,Voluntary,Better Opportunity,N,Y,3.4
+E000789,2025-02-01,2025-03-29,Voluntary,Personal Reasons,N,Y,2.6
+E000791,2025-08-29,2025-11-01,Voluntary,Personal Reasons,N,Y,2.1
+E000792,2026-01-21,2026-03-05,Involuntary,Personal Reasons,N,Y,3.0
+E000798,2025-04-30,2025-06-21,Voluntary,Better Opportunity,Y,Y,3.6
+E000799,2024-04-12,2024-06-17,Voluntary,Performance,Y,Y,3.0
+E000803,2025-01-27,2025-03-27,Voluntary,Compensation,N,Y,5.0
+E000808,2024-09-29,2024-12-19,Voluntary,Relocation,Y,Y,3.8
+E000809,2025-11-12,2026-01-23,Involuntary,Career Growth,Y,Y,4.0
+E000814,2024-12-25,2025-03-23,Involuntary,Relocation,N,Y,3.2
+E000824,2025-06-29,2025-08-25,Voluntary,Better Opportunity,N,Y,4.2
+E000834,2025-01-19,2025-02-20,Involuntary,Career Growth,N,Y,4.0
+E000835,2025-04-29,2025-06-05,Voluntary,Better Opportunity,N,N,3.3
+E000844,2024-09-28,2024-11-15,Voluntary,Better Opportunity,Y,Y,2.1
+E000846,2024-11-17,2024-12-18,Voluntary,Better Opportunity,Y,Y,3.9
+E000849,2025-12-02,2026-01-21,Voluntary,Compensation,Y,Y,4.0
+E000853,2024-04-05,2024-06-24,Voluntary,Personal Reasons,N,Y,1.2
+E000854,2025-08-18,2025-11-06,Voluntary,Better Opportunity,N,Y,4.3
+E000856,2024-05-30,2024-08-26,Voluntary,Better Opportunity,N,Y,2.5
+E000857,2024-11-20,2025-01-31,Voluntary,Career Growth,Y,Y,3.4
+E000858,2025-10-28,2025-12-12,Voluntary,Career Growth,N,Y,4.8
+E000863,2024-05-01,2024-07-24,Involuntary,Career Growth,Y,Y,4.1
+E000868,2024-09-03,2024-11-06,Voluntary,Better Opportunity,N,Y,4.2
+E000873,2025-04-25,2025-07-15,Voluntary,Better Opportunity,N,Y,3.3
+E000877,2024-04-23,2024-07-14,Voluntary,Personal Reasons,Y,Y,4.4
+E000878,2025-06-14,2025-08-15,Voluntary,Better Opportunity,Y,Y,2.7
+E000880,2024-12-13,2025-02-01,Voluntary,Better Opportunity,N,Y,3.0
+E000881,2024-10-26,2025-01-10,Voluntary,Performance,Y,N,2.6
+E000884,2024-09-05,2024-11-06,Voluntary,Better Opportunity,N,N,2.6
+E000889,2025-03-08,2025-04-20,Voluntary,Career Growth,N,Y,4.6
+E000890,2025-12-07,2026-02-09,Voluntary,Better Opportunity,Y,Y,3.7
+E000903,2025-12-14,2026-02-04,Involuntary,Retirement,Y,Y,3.9
+E000906,2025-04-22,2025-05-25,Involuntary,Personal Reasons,N,Y,4.4
+E000907,2025-09-09,2025-10-14,Involuntary,Career Growth,N,Y,5.0
+E000908,2025-04-05,2025-06-22,Voluntary,Better Opportunity,Y,N,2.3
+E000910,2025-05-26,2025-08-06,Involuntary,Higher Studies,Y,Y,2.3
+E000911,2025-04-08,2025-06-15,Voluntary,Performance,N,Y,3.0
+E000931,2024-11-17,2025-01-19,Voluntary,Higher Studies,N,Y,4.0
+E000942,2025-10-18,2025-11-29,Voluntary,Better Opportunity,Y,Y,2.9
+E000965,2025-07-24,2025-10-18,Voluntary,Better Opportunity,Y,Y,5.0
+E000969,2025-04-05,2025-06-05,Voluntary,Compensation,N,Y,3.8
+E000971,2025-04-06,2025-06-03,Involuntary,Relocation,N,N,3.4
+E000975,2025-04-23,2025-07-18,Voluntary,Career Growth,N,Y,3.1
+E000987,2024-11-27,2025-01-31,Voluntary,Better Opportunity,N,N,3.5
+E000994,2024-12-17,2025-03-11,Voluntary,Compensation,N,Y,3.7
+E001004,2025-01-02,2025-03-06,Voluntary,Compensation,N,Y,3.3
+E001009,2025-04-21,2025-06-07,Voluntary,Relocation,N,Y,3.6
+E001014,2025-02-16,2025-03-26,Voluntary,Compensation,N,Y,4.8
+E001015,2025-08-04,2025-10-28,Involuntary,Better Opportunity,N,N,3.0
+E001022,2025-01-26,2025-03-03,Voluntary,Compensation,N,Y,4.1
+E001024,2025-01-09,2025-03-18,Voluntary,Retirement,N,Y,3.6
+E001027,2025-01-19,2025-03-26,Voluntary,Compensation,N,Y,2.3
+E001030,2025-11-16,2026-01-25,Voluntary,Better Opportunity,N,Y,3.1
+E001037,2025-12-23,2026-01-31,Voluntary,Relocation,Y,Y,2.7
+E001041,2025-11-17,2026-01-29,Voluntary,Relocation,N,N,3.7
+E001045,2025-01-22,2025-03-07,Voluntary,Better Opportunity,Y,Y,3.8
+E001046,2025-06-27,2025-09-12,Voluntary,Better Opportunity,N,Y,3.8
+E001058,2025-03-10,2025-04-13,Voluntary,Relocation,N,Y,3.6
+E001067,2026-01-07,2026-03-15,Voluntary,Better Opportunity,Y,Y,3.3
+E001068,2025-03-08,2025-05-19,Voluntary,Personal Reasons,Y,Y,3.1
+E001095,2025-02-19,2025-03-29,Voluntary,Career Growth,Y,Y,3.9
+E001098,2025-06-30,2025-09-03,Voluntary,Better Opportunity,N,N,4.6
+E001099,2025-10-11,2025-11-30,Voluntary,Career Growth,Y,Y,4.0
+E001120,2025-02-06,2025-05-02,Voluntary,Relocation,Y,Y,3.6
+E001123,2026-01-10,2026-03-12,Voluntary,Better Opportunity,Y,Y,4.1
+E001124,2025-10-27,2025-12-24,Voluntary,Better Opportunity,N,Y,2.8
+E001129,2025-07-29,2025-09-02,Involuntary,Relocation,N,Y,4.0
+E001134,2026-01-29,2026-03-11,Involuntary,Compensation,Y,Y,3.2
+E001137,2025-10-08,2025-12-18,Voluntary,Career Growth,N,Y,2.9
+E001144,2025-07-23,2025-08-27,Voluntary,Relocation,N,Y,2.3
+E001148,2025-10-19,2025-12-17,Voluntary,Compensation,Y,N,4.3
+E001160,2025-04-03,2025-06-20,Involuntary,Better Opportunity,N,Y,3.3
+E001166,2025-08-08,2025-10-04,Voluntary,Personal Reasons,N,Y,3.7
+E001168,2025-06-09,2025-08-11,Voluntary,Career Growth,Y,Y,3.9
+E001169,2025-06-12,2025-09-05,Voluntary,Better Opportunity,Y,Y,3.3
+E001184,2025-11-21,2026-01-23,Voluntary,Higher Studies,Y,Y,3.2
+E001191,2025-11-30,2025-12-31,Involuntary,Better Opportunity,N,Y,3.6
+E001192,2025-08-27,2025-11-07,Voluntary,Compensation,Y,N,3.1
+E001195,2026-02-19,2026-03-29,Voluntary,Performance,N,Y,2.9
+E001204,2026-01-18,2026-03-06,Voluntary,Relocation,N,N,4.4
+E001224,2025-07-27,2025-10-11,Voluntary,Retirement,N,Y,3.1
+E001232,2025-10-13,2026-01-10,Voluntary,Compensation,N,Y,2.7
+E001243,2025-06-04,2025-08-25,Voluntary,Career Growth,N,Y,4.4
+E001245,2026-01-08,2026-02-15,Voluntary,Personal Reasons,Y,Y,3.2
+E001266,2025-12-27,2026-02-05,Voluntary,Higher Studies,Y,Y,2.0
+E001270,2025-10-25,2025-12-26,Voluntary,Compensation,Y,N,3.0
+E001271,2025-12-17,2026-02-15,Voluntary,Relocation,N,Y,3.5
+E001274,2025-08-31,2025-10-11,Involuntary,Better Opportunity,Y,N,4.3
+E001284,2025-12-13,2026-01-23,Involuntary,Better Opportunity,Y,N,3.0
+E001294,2025-10-20,2025-12-17,Involuntary,Personal Reasons,N,Y,2.9
+E001303,2025-12-15,2026-01-17,Voluntary,Relocation,Y,N,4.2
+E001304,2025-08-27,2025-11-22,Voluntary,Better Opportunity,N,Y,3.0
+E001313,2025-12-18,2026-02-02,Voluntary,Higher Studies,N,Y,2.8
+E001336,2025-12-02,2026-02-14,Voluntary,Relocation,N,N,2.3
+E001374,2026-01-15,2026-03-22,Voluntary,Better Opportunity,N,Y,2.7

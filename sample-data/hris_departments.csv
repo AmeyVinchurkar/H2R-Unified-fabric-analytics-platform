@@ -1,0 +1,11 @@
+department_id,department_name,business_unit
+D01,Engineering,Technology
+D02,Data & Analytics,Technology
+D03,Quality Assurance,Technology
+D04,Sales,Business
+D05,Marketing,Business
+D06,Finance,Corporate
+D07,Human Resources,Corporate
+D08,Customer Success,Business
+D09,Delivery Excellence,Operations
+D10,IT Operations,Operations
