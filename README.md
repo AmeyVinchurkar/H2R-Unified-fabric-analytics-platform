@@ -39,15 +39,10 @@ OneLake, refines them through **Bronze → Silver → Gold** layers, enforces da
 | Serve | SQL analytics endpoint + Semantic model | Reporting views, 40+ DAX measures, RLS by department |
 | Analyse | Power BI report | Executive, Talent Acquisition, Learning & Performance, Attrition & Exit, Data Health |
 
-## 📊 Dashboard 
+## 📊 Interactive Dashboard 
 
--Access Link - https://ameyvinchurkar.github.io/H2R-Unified-fabric-analytics-platform/powerbi/h2r-dashboard.html
+Access Link - https://ameyvinchurkar.github.io/H2R-Unified-fabric-analytics-platform/powerbi/h2r-dashboard.html
 
-| Executive Overview | Talent Acquisition & Onboarding |
-|---|---|
-| ![](powerbi/screenshots/01_executive_overview.png) | ![](powerbi/screenshots/02_talent_acquisition_onboarding.png) |
-| **Learning & Performance** | **Attrition, Retention & Exit** |
-| ![](powerbi/screenshots/03_learning_performance.png) | ![](powerbi/screenshots/04_attrition_retention_exit.png) |
 
 ## 🔄 Employee Lifecycle KPIs
 | Stage | Key metrics |
